@@ -14,20 +14,22 @@ to identify drop-off points, retention drivers, and high-value user segments.
 
 ---
 
+
 ## Project Structure
 
+```
 payments-funnel-analysis/
-├── data/
-│   ├── users.csv
-│   ├── events.csv
-│   └── transactions.csv
-├── generate_data.py
-├── sql/
-│   ├── 01_funnel_analysis.sql
-│   ├── 02_cohort_retention.sql
-│   └── 03_segmentation.sql
 ├── analysis.ipynb
-└── README.md
+├── README.md
+└── data/
+    ├── users.csv
+    ├── events.csv
+    ├── transactions.csv
+    ├── chart1_funnel.png
+    ├── chart2_retention.png
+    ├── chart3_hourly_revenue.png
+    └── chart4_segmentation.png
+```
 
 
 ---
